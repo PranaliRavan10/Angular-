@@ -1,0 +1,11 @@
+<h1>Department of Technology Branches </h1>
+<div [ngSwitch]="Branch">
+
+  <div *ngSwitchCase="'CST'">You selected Computer science and technology branch</div>
+  <div *ngSwitchCase="'ECT'">You selected Electonics & Telecommunication branch</div>
+  <div *ngSwitchCase="'MECH'">You selected Mechanical branch</div>
+  <div *ngSwitchCase="'FT'">You selected Food technology Branch </div>
+
+  <div *ngSwitchDefault>Wrong Selection</div>
+
+</div>

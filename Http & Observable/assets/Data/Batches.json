@@ -1,0 +1,5 @@
+[
+    {"Name":"B.Tech", "Fees":90000, "Duration":4 },
+    {"Name":"MCS", "Fees":65000, "Duration":3},
+    {"Name":"MCA", "Fees":65000, "Duration":3}
+]

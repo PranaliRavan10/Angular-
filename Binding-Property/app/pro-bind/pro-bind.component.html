@@ -1,0 +1,35 @@
+<html>
+
+  <!--Only textbox-->
+  <input type="text">
+  <br>
+
+  <!--Text box with attribute-->
+  <input type="text" value="Text box with attribute">
+  <br>
+  
+  <!--Hardcoded attribute-->
+  <input type="text" id = "1" value="Hardcoded attribute">
+  <br>
+  
+  <!-- Text box with attribute and property binding-->
+  <input type="text" [id] = "ID" value="Text box with attribute and property binding">
+  <br>
+  
+  <!-- Property binding as string interpolation-->
+  <!-- String interpolation only works with string attributes-->
+  <input type="text" id = "{{ID}}" value=" String interpolation only works with string attributes">
+  <br>
+
+  <!--Text box with disabled attribute -->
+  <input type="text" disabled = "true" value="Text box with disabled attribute">
+  <br>
+
+  <!--Text box with disabled attribute with property binding-->
+  <input type="text" [disabled] = "IsSet" value="Text box with disabled attribute with property binding">
+  <br>
+
+  <!-- using bind- tag we can also set the property-->
+  <input type="text" bind-id = "ID" value="using bind- tag we can also set the property">
+  <br>
+  </html>
